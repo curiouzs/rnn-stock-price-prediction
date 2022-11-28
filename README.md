@@ -7,7 +7,7 @@ To develop a Recurrent Neural Network model for stock price prediction.
 Make a Recurrent Neural Network model for predicting stock price using a training and testing dataset. The model will learn from the training dataset sample and then the testing data is pushed for testing the model accuracy for checking its accuracy.
 The Dataset has features of market open price, closing price, high and low price for each day.
 ## Neural Network Model
-<img src ="https://user-images.githubusercontent.com/75234646/195596103-0332c960-91cf-4e01-87ef-5bedc76a9342.jpeg" width ="45%" height="25%">
+<img src ="https://user-images.githubusercontent.com/75234646/195596103-0332c960-91cf-4e01-87ef-5bedc76a9342.jpeg" width ="55%" height="45%">
 
 ## DESIGN STEPS
 ### STEP 1:
