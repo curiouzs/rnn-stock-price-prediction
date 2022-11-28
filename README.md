@@ -1,30 +1,27 @@
-# Stock Price Prediction
+## EXP.NO : 05
+## DATE   : 
+# <h1 align ="center">Stock Price Prediction</h1>
 ## AIM
 To develop a Recurrent Neural Network model for stock price prediction.
-
 ## Problem Statement and Dataset
 Make a Recurrent Neural Network model for predicting stock price using a training and testing dataset. The model will learn from the training dataset sample and then the testing data is pushed for testing the model accuracy for checking its accuracy.
 The Dataset has features of market open price, closing price, high and low price for each day.
-
 ## Neural Network Model
-![WhatsApp Image 2022-10-13 at 5 57 56 PM](https://user-images.githubusercontent.com/75234646/195596103-0332c960-91cf-4e01-87ef-5bedc76a9342.jpeg)
+<img src ="https://user-images.githubusercontent.com/75234646/195596103-0332c960-91cf-4e01-87ef-5bedc76a9342.jpeg" width ="45%" height="25%">
 
 ## DESIGN STEPS
 ### STEP 1:
 Import the necessary libraries
-
 ### STEP 2:
 load the dataset
-
 ### STEP 3:
 create the model and compile it 
-
 ### STEP 4:
 fit it with the training dataset. Then  evaluate the model with testing data.
-
 ## PROGRAM
 ```python
-
+#DEVELOPED BY : M.Lokesh Krishnaa 
+#REG. NO : 212220230030
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -78,14 +75,13 @@ plt.xlabel('Time')
 plt.ylabel('Google Stock Price')
 plt.legend()
 plt.show()
-
 ```
 ## OUTPUT
 ### True Stock Price, Predicted Stock Price vs time
-![chart](https://user-images.githubusercontent.com/75234646/195597001-d3ed2e4f-eaf0-42e2-82c6-eedf263b2ca7.png)
+<img src ="https://user-images.githubusercontent.com/75234646/195597001-d3ed2e4f-eaf0-42e2-82c6-eedf263b2ca7.png" width ="50%" height="40%">
 
 ### Mean Square Error
-![mae](https://user-images.githubusercontent.com/75234646/195596887-7a13c062-4fb5-4ef2-bdf5-206c6cc8d3f4.png)
+<img src ="https://user-images.githubusercontent.com/75234646/195596887-7a13c062-4fb5-4ef2-bdf5-206c6cc8d3f4.png" width ="50%" height="40%">
 
 ## RESULT
 Thus, a Recurrent Neural Network model for stock price prediction has been developed.
